@@ -1,0 +1,25 @@
+.aboutUS{
+    background-image: url(https://images.unsplash.com/photo-1593642532744-d377ab507dc8?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60);
+    background-size: cover;
+    filter:brightness(40%);
+    height: 50vh;
+}
+.team-container{
+    background-color: black;
+}
+.aboutUS h1{
+    color: rgb(255, 255, 255);
+    filter: opacity(100)!important;
+}
+p{
+    font-size: 15px;
+}
+img{
+    height: 200px;
+    width: auto;
+}
+
+.single-img img{
+ height: 100px;
+ width: auto;
+}
