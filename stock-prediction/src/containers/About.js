@@ -59,79 +59,65 @@ export default class About extends Component {
 
 
 
-                <div className="team-container  pt-5 mb-5 p-5">
-                    <h1 className="text-center bold text-white">OUR TEAM</h1>
-                    <div className="team col-md-12 d-flex justify-content-around text-center ">
+                <div className="team-container mt-5 ">
+                    <h1 className="text-center bold text-whit">OUR TEAM</h1>
 
-                        <div className="single-info col-md-2 ">
-                            <div className="single-img ">
-                                <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" />
-                            </div>
-                            <div className="name bold text-white h4">Anuj</div>
-                            <div className="single-social text-white">
+                    <div className="d-flex justify-content-around">
 
-                                insta
-                                fb
-                                nfksdn
-
-                            </div>
-                            <div className="single-about mt-3 justify-content-around">
-                                <p className="text-white">Founded in 2009, we are a bootstrapped and profitable company helping design talent share, grow, and get hired by over 40,000 of today’s most innovative brands around the world.</p>
-                            </div>
+                        <div class="card col-md-3 p-0">
+                            <img src="https://images.unsplash.com/photo-1529397938791-2aba4681454f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="John" />
+                            <h1>John Doe</h1>
+                            <p class="title">CEO & Founder, Example</p>
+                            <p>Harvard University</p>
+                            <div className="socials">
+                            <a href="#"><i class=" p-3 fa fa-dribbble"></i></a>
+                            <a href="#"><i class=" p-3 fa fa-twitter"></i></a>
+                            <a href="#"><i class=" p-3 fa fa-linkedin"></i></a>
+                            <a href="#"><i class=" p-3 fa fa-facebook"></i></a></div>
+                            <p><button className="pri-clr text-white bold">Contact</button></p>
                         </div>
-                        <div className="single-info col-md-2 ">
-                            <div className="single-img ">
-                                <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" />
-                            </div>
-                            <div className="name bold text-white h4">Anuj</div>
-                            <div className="single-social text-white">
-
-                                insta
-                                fb
-                                nfksdn
-
-                            </div>
-                            <div className="single-about mt-3 justify-content-around">
-                                <p className="text-white">Founded in 2009, we are a bootstrapped and profitable company helping design talent share, grow, and get hired by over 40,000 of today’s most innovative brands around the world.</p>
-                            </div>
+                        <div class="card col-md-3 p-0">
+                            <img src="https://images.unsplash.com/photo-1529397938791-2aba4681454f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="John" />
+                            <h1>John Doe</h1>
+                            <p class="title">CEO & Founder, Example</p>
+                            <p>Harvard University</p>
+                            <div className="socials">
+                            <a href="#"><i class=" p-3 fa fa-dribbble"></i></a>
+                            <a href="#"><i class=" p-3 fa fa-twitter"></i></a>
+                            <a href="#"><i class=" p-3 fa fa-linkedin"></i></a>
+                            <a href="#"><i class=" p-3 fa fa-facebook"></i></a></div>
+                            <p><button>Contact</button></p>
                         </div>
-                        <div className="single-info col-md-2 ">
-                            <div className="single-img ">
-                                <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" />
-                            </div>
-                            <div className="name bold text-white h4">Anuj</div>
-                            <div className="single-social text-white">
-
-                                insta
-                                fb
-                                nfksdn
-
-                            </div>
-                            <div className="single-about mt-3 justify-content-around">
-                                <p className="text-white">Founded in 2009, we are a bootstrapped and profitable company helping design talent share, grow, and get hired by over 40,000 of today’s most innovative brands around the world.</p>
-                            </div>
+                        <div class="card col-md-3 p-0">
+                            <img src="https://images.unsplash.com/photo-1529397938791-2aba4681454f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="John" />
+                            <h1>John Doe</h1>
+                            <p class="title">CEO & Founder, Example</p>
+                            <p>Harvard University</p>
+                            <div className="socials">
+                            <a href="#"><i class=" p-3 fa fa-dribbble"></i></a>
+                            <a href="#"><i class=" p-3 fa fa-twitter"></i></a>
+                            <a href="#"><i class=" p-3 fa fa-linkedin"></i></a>
+                            <a href="#"><i class=" p-3 fa fa-facebook"></i></a></div>
+                            <p><button>Contact</button></p>
                         </div>
-                        <div className="single-info col-md-2 ">
-                            <div className="single-img ">
-                                <img src="https://images.unsplash.com/photo-1511367461989-f85a21fda167?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60" />
-                            </div>
-                            <div className="name bold text-white h4">Anuj</div>
-                            <div className="single-social text-white">
-
-                                insta
-                                fb
-                                nfksdn
-
-                            </div>
-                            <div className="single-about mt-3 justify-content-around">
-                                <p className="text-white">Founded in 2009, we are a bootstrapped and profitable company helping design talent share, grow, and get hired by over 40,000 of today’s most innovative brands around the world.</p>
-                            </div>
+                        <div class="card col-md-3 p-0">
+                            <img src="https://images.unsplash.com/photo-1529397938791-2aba4681454f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="John" />
+                            <h1>John Doe</h1>
+                            <p class="title">CEO & Founder, Example</p>
+                            <p>Harvard University</p>
+                            <div className="socials">
+                            <a href="#"><i class=" p-3 fa fa-dribbble"></i></a>
+                            <a href="#"><i class=" p-3 fa fa-twitter"></i></a>
+                            <a href="#"><i class=" p-3 fa fa-linkedin"></i></a>
+                            <a href="#"><i class=" p-3 fa fa-facebook"></i></a></div>
+                            <p><button>Contact</button></p>
                         </div>
-
+                       
                     </div>
 
+
                 </div>
-                <Footer/>
+                <Footer />
             </div>
         )
     }

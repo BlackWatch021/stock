@@ -4,7 +4,7 @@ export default class Slider extends Component {
     render() {
         return (
             <div>
-                 <div className="img-slider">
+                 <div className="img-slider ">
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-indicators">

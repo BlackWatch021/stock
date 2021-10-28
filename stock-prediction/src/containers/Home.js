@@ -36,33 +36,40 @@ export default class home extends Component {
                             <div class="col-lg-3">
                                 <div class="ts-service-box rounded p-5 text-center   bg-white  ">
                                     <div class="ts-service-box-img ">
-                                        <img loading="lazy" src="images/icon-image/service-icon1.png" alt="service-icon" />
+                                    <i class="fas fa-balance-scale-right pri-clr fa-3x"></i>
                                     </div>
-                                    <div class="ts-service-box-info">
-                                        <p class="service-box-title"><a href="#">service name</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="ts-service-box rounded p-5 text-center   bg-white  ">
-                                    <div class="ts-service-box-img ">
-                                        <img loading="lazy" src="images/icon-image/service-icon1.png" alt="service-icon" />
-                                    </div>
-                                    <div class="ts-service-box-info">
-                                        <p class="service-box-title"><a href="#">service name</a></p>
+                                    <div class="ts-service-box-info mt-4">
+                                        <p class="service-box-title bold " >PREDICTION </p>
+                                        <p>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-3">
                                 <div class="ts-service-box rounded p-5 text-center   bg-white  ">
                                     <div class="ts-service-box-img ">
-                                        <img loading="lazy" src="images/icon-image/service-icon1.png" alt="service-icon" />
+                                    <i class="fas fa-balance-scale-right pri-clr fa-3x"></i>
                                     </div>
-                                    <div class="ts-service-box-info">
-                                        <p class="service-box-title"><a href="#">service name</a></p>
+                                    <div class="ts-service-box-info mt-4">
+                                        <p class="service-box-title bold " >PREDICTION </p>
+                                        <p>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-lg-3">
+                                <div class="ts-service-box rounded p-5 text-center   bg-white  ">
+                                    <div class="ts-service-box-img ">
+                                    <i class="fas fa-balance-scale-right pri-clr fa-3x"></i>
+                                    </div>
+                                    <div class="ts-service-box-info mt-4">
+                                        <p class="service-box-title bold " >PREDICTION </p>
+                                        <p>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
 
@@ -82,7 +89,7 @@ export default class home extends Component {
                             <div class="col-lg-3 ">
                                 <div class="ts-service-box rounded border  bg-white  p-1">
                                     <div class="ts-service-box-img d-flex ">
-                                        <img loading="lazy" src="" alt="profile" />
+                                        <div className="profile-img"></div>
                                         <div className="ml-3"> customer name</div>
                                     </div>
                                     <div class="review-box">
@@ -90,28 +97,7 @@ export default class home extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3">
-                                <div class="ts-service-box rounded border  bg-white  p-1">
-                                    <div class="ts-service-box-img d-flex ">
-                                        <img loading="lazy" src="" alt="profile" />
-                                        <div className="ml-3"> customer name</div>
-                                    </div>
-                                    <div class="review-box">
-                                        <p class="service-box-title ">review</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3">
-                                <div class="ts-service-box rounded border  bg-white  p-1">
-                                    <div class="ts-service-box-img d-flex ">
-                                        <img loading="lazy" src="" alt="profile" />
-                                        <div className="ml-3"> customer name</div>
-                                    </div>
-                                    <div class="review-box">
-                                        <p class="service-box-title ">review</p>
-                                    </div>
-                                </div>
-                            </div>
+                            
 
                         </div>
                     </div>

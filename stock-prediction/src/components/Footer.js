@@ -13,14 +13,14 @@ export default class Footer extends Component {
                                     <p class="widget-title bold h5">About Us</p>
                                       <p className="description h6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci done idunt ut
                                         labore et dolore magna aliqua.</p>
-                                    <div class="footer-social d-flex">
-                                        <ul>
-                                            <li><a href="https://facebook.com/themefisher" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="https://twitter.com/themefisher" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                    <div class="footer-social ">
+                                        <ul className="list-unstyled d-flex  mt-4">
+                                            <li><a className="" href="https://facebook.com/themefisher" aria-label="Facebook"><i class="fab text-white fa-2x  fa-facebook-f"></i></a></li>
+                                            <li><a className="ml-5" href="https://twitter.com/themefisher" aria-label="Twitter"><i class="fab text-white fa-2x  fa-twitter"></i></a>
                                             </li>
-                                            <li><a href="https://instagram.com/themefisher" aria-label="Instagram"><i
-                                                class="fab fa-instagram"></i></a></li>
-                                            <li><a href="https://github.com/themefisher" aria-label="Github"><i class="fab fa-github"></i></a></li>
+                                            <li><a className="ml-5" href="https://instagram.com/themefisher" aria-label="Instagram"><i
+                                                class="fab text-white fa-2x  fa-instagram"></i></a></li>
+                                            <li><a className="ml-5" href="https://github.com/themefisher" aria-label="Github"><i class="fab text-white fa-2x  fa-github"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>

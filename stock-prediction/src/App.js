@@ -1,6 +1,7 @@
 import './CSs/App.css';
 import "./CSs/style.css"
 import "./CSs/About.css"
+import "./CSs/Contact.css"
 
 import Router from './Router';
 
