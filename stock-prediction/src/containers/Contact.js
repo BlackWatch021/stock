@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-    
+
 export default class Contact extends Component {
     render() {
         return (
@@ -17,9 +17,9 @@ export default class Contact extends Component {
 
 
                 </div>
-                <div className="map p-3">
+                {/* <div className="map p-3">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7362.198705855526!2d75.86155442578305!3d22.687345090495263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fce4e3fb47b5%3A0xc0233b393fbd54de!2sBhanwar%20Kuwa%2C%20Indore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1635325014470!5m2!1sen!2sin" ></iframe>
-                </div>
+                </div> */}
 
                 <div className="con-form mt-4">
                     <div className="contact">
@@ -62,7 +62,7 @@ export default class Contact extends Component {
                                 <div className="Contact-icon p-2 "> <i class="fas  fa-map pri-clr p-2"></i> </div>
                                 <div className="info ml-3">
                                     <p className="m-0">Location</p>
-                                    <p className="m-0">Pochinki , Squad house , House no.1 , Near School appartments Road</p>
+                                    <p className="m-0">Lorem ipsum,Dolor sit,Amet,Consectetu.</p>
                                 </div>
                             </div>
 
@@ -72,7 +72,7 @@ export default class Contact extends Component {
 
                 </div>
 
-<Footer/>
+                <Footer />
             </div>
         )
     }

@@ -4,7 +4,7 @@ export default class Slider extends Component {
     render() {
         return (
             <div>
-                 <div className="img-slider ">
+                <div className="img-slider ">
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-indicators">
@@ -17,8 +17,8 @@ export default class Slider extends Component {
                                     <div class="container h-100">
                                         <div class="row align-items-center h-100">
                                             <div class="col-md-12 text-center">
-                                                <p class="slide-title text-dark animate__animated animate__fadeInLeft ">17 Years of excellence in</p>
-                                                <p class="slide-sub-title sec-bold h2 animate__animated animate__fadeInRight" >Stock Industry</p>
+                                                <p class="slide-title text-dark animate__animated animate__fadeInLeft ">We are Stock Baba</p>
+                                                <p class="slide-sub-title sec-bold h2 animate__animated animate__fadeInRight" >Stocks</p>
                                             </div>
                                         </div>
                                     </div>
@@ -28,7 +28,7 @@ export default class Slider extends Component {
                                         <div class="row align-items-center h-100">
                                             <div class="col-md-12 text-center">
                                                 <p class="slide-title" data-animation-in="slideInLeft"></p>
-                                                <p class="slide-sub-title" data-animation-in="slideInRight">Stock Industry</p>
+                                                <p class="slide-sub-title" data-animation-in="slideInRight">Stocks</p>
                                             </div>
                                         </div>
                                     </div>
@@ -39,7 +39,7 @@ export default class Slider extends Component {
                     </div>
 
                 </div>
-           
+
             </div>
         )
     }
